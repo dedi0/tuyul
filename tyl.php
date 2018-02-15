@@ -98,6 +98,6 @@ for($i=0; $i<100; $i++) {
     } else {
         exit("[" . date("H:i:s") . "] " . $RD . "Invalid cookies!" . $CC);
     }
-    echo "[" . date("H:i:s") . "] Sleep for 60sec...\n";
-    sleep(60);
+    echo "[" . date("H:i:s") . "] Sleep for 1200sec...\n";
+    sleep(1200);
 }
